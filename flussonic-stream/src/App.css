@@ -1,0 +1,26 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes table_load {
+0% {
+  opacity: 0;
+  transform: translateX(-5%);
+}
+100% {
+  opacity: 1;
+  transform: translateX(0%);
+}
+}
+
+.stream-table-div {
+background-color: whitesmoke;
+box-shadow: 1px 1px 10px gray;
+animation: table_load 1s forwards;
+padding: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+

@@ -1,5 +1,9 @@
 ﻿# Flussonic-stream
 
-To run frontend app in dev mode open "flussonic-stream" folder and write "npm start" in your terminal. It will start react application on port 3000;
+To start frontend app in dev mode open "flussonic-stream" folder:
+1. run "npm install" for nessesary dependencies;
+2. run "npm start". React application will start on port 3000;
 
-For backend data support open second terminal, next open "openapi-demo" folder and run "node server.mjs" to start server.
+For backend data support, open second terminal: 
+1. Open "openapi-demo" folder and run "yarn install";
+2. Run script - "node server.mjs".
